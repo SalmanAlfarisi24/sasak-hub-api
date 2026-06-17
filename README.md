@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Sasak Search API
+# 🚀 Sasak Search API 
 
 ### 🌾 Fast • Lightweight • Serverless Dictionary API for Sasak Language 
 
