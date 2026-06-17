@@ -206,7 +206,7 @@ Jika belum menggunakan Git:
 
 ## Salman Al Farisi
 
-**Informatics Engineering Student**
+**Mahasiswa Teknik Informatika**
 **Universitas Hamzanwadi**
 
 ---
