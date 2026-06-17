@@ -55,24 +55,6 @@ GET https://sasak-api.vercel.app/api/kamus?search=mangan
 
 ---
 
-# 📦 Response Example
-
-```json
-{
-  "status": "success",
-  "total_results": 1,
-  "data": [
-    {
-      "bahasa_sasak": "mangan",
-      "bahasa_indonesia": "makan",
-      "kategori": "kata kerja"
-    }
-  ]
-}
-```
-
----
-
 # 🚀 Quick Start
 
 ## JavaScript
@@ -183,7 +165,7 @@ Jika belum menggunakan Git:
 | ☁️ Serverless Architecture | ✅      |
 | 📱 Android Ready           | ✅      |
 | 🌐 RESTful API             | ✅      |
-| 📦 JSON Response           | ✅      |
+| 📦 Data Response           | ✅      |
 | 🆓 Free to Use             | ✅      |
 
 ---
@@ -195,7 +177,6 @@ Jika belum menggunakan Git:
 | Node.js    | Runtime       |
 | Vercel     | Deployment    |
 | JavaScript | Backend Logic |
-| JSON       | Data Exchange |
 | REST API   | Communication |
 
 ---
