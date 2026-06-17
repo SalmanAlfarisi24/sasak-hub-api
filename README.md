@@ -2,7 +2,7 @@
 
 # 🚀 Sasak Search API
 
-### 🌾 Fast • Lightweight • Serverless Dictionary API for Sasak Language
+### 🌾 Fast • Lightweight • Serverless Dictionary API for Sasak Language 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Sasak-green?style=for-the-badge">
