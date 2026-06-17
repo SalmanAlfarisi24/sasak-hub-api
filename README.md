@@ -1,23 +1,27 @@
-# 🚀 Sasak Search API
-
 <div align="center">
+
+# 🚀 Sasak Search API
 
 ### 🌾 Fast • Lightweight • Serverless Dictionary API for Sasak Language
 
-Membantu pelestarian Bahasa Sasak melalui API pencarian kamus yang cepat, modern, dan mudah diintegrasikan ke berbagai aplikasi.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Sasak-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/API-REST-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Online-success?style=for-the-badge">
+</p>
 
-[![Deploy on Vercel](https://img.shields.io/badge/Hosted%20on-Vercel-black?style=for-the-badge\&logo=vercel)](https://sasak-api.vercel.app/)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=for-the-badge\&logo=node.js)](https://nodejs.org/)
-[![REST API](https://img.shields.io/badge/API-REST-blue?style=for-the-badge)](https://sasak-api.vercel.app/)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-orange?style=for-the-badge)]()
+<p align="center">
+Membantu pelestarian Bahasa Sasak melalui API pencarian kamus yang cepat, modern, dan mudah diintegrasikan ke berbagai aplikasi.
+</p>
 
 </div>
 
 ---
 
-## ✨ About
+# ✨ About
 
-**Sasak Search API** adalah layanan REST API berbasis Node.js yang menyediakan pencarian kosakata Bahasa Sasak ↔ Bahasa Indonesia secara real-time.
+> **Sasak Search API** adalah layanan REST API berbasis Node.js yang menyediakan pencarian kosakata Bahasa Sasak ↔ Bahasa Indonesia secara real-time.
 
 API ini dirancang agar:
 
@@ -29,23 +33,23 @@ API ini dirancang agar:
 
 ---
 
-## 🌐 Live API
+# 🌐 Live API
 
-
+```bash
 https://sasak-api.vercel.app/
-
+```
 
 ---
 
-## 🔎 Search Endpoint
+# 🔎 Search Endpoint
 
-### Request
+## Request
 
 ```http
 GET /api/kamus?search={keyword}
 ```
 
-### Example
+## Example
 
 ```http
 GET https://sasak-api.vercel.app/api/kamus?search=mangan
@@ -53,7 +57,7 @@ GET https://sasak-api.vercel.app/api/kamus?search=mangan
 
 ---
 
-## 📦 Response Example
+# 📦 Response Example
 
 ```json
 {
@@ -71,9 +75,9 @@ GET https://sasak-api.vercel.app/api/kamus?search=mangan
 
 ---
 
-## 🚀 Quick Start
+# 🚀 Quick Start
 
-### JavaScript
+## JavaScript
 
 ```javascript
 const response = await fetch(
@@ -85,7 +89,9 @@ const data = await response.json();
 console.log(data);
 ```
 
-### Kotlin (Retrofit)
+---
+
+## Kotlin (Retrofit)
 
 ```kotlin
 @GET("api/kamus")
@@ -94,7 +100,9 @@ suspend fun searchWord(
 ): KamusResponse
 ```
 
-### cURL
+---
+
+## cURL
 
 ```bash
 curl "https://sasak-api.vercel.app/api/kamus?search=mangan"
@@ -102,19 +110,87 @@ curl "https://sasak-api.vercel.app/api/kamus?search=mangan"
 
 ---
 
-## 📊 Features
+# 📱 Integrasi dengan Android Studio
 
-* 🔍 Keyword Search
-* ⚡ Instant Response
-* ☁️ Serverless Architecture
-* 📱 Android Ready
-* 🌐 RESTful API
-* 📦 JSON Response
-* 🆓 Free to Use
+Repository ini ditujukan untuk digunakan pada proyek Android yang dibuat menggunakan **Kotlin** di Android Studio.
+
+API dapat diintegrasikan menggunakan **Retrofit** atau library HTTP lainnya untuk melakukan pencarian kata Bahasa Sasak secara real-time.
 
 ---
 
-## 🏗️ Tech Stack
+# 📥 Menggunakan Repository dari Android Studio
+
+## 🔹 Metode 1 — Clone Langsung dari Android Studio (Direkomendasikan)
+
+1. Buka **Android Studio**.
+2. Klik menu **File** → **New** → **Project from Version Control**.
+3. Pada kolom **URL**, masukkan:
+
+```text
+https://github.com/SalmanAlfarisi24/sasak-hub-api.git
+```
+
+4. Pilih lokasi penyimpanan project di laptop.
+5. Klik **Clone**.
+6. Tunggu hingga Android Studio selesai mengunduh repository.
+7. Setelah proses selesai, Android Studio akan membuka project secara otomatis.
+
+---
+
+## 🔹 Metode 2 — Clone Menggunakan Git
+
+Pastikan Git telah terpasang pada komputer.
+
+Buka Terminal atau Command Prompt:
+
+```bash
+git clone https://github.com/SalmanAlfarisi24/sasak-hub-api.git
+```
+
+Masuk ke folder project:
+
+```bash
+cd sasak-hub-api
+```
+
+Kemudian buka folder tersebut melalui Android Studio:
+
+```text
+File → Open → Pilih folder sasak-hub-api
+```
+
+---
+
+## 🔹 Metode 3 — Download ZIP
+
+Jika belum menggunakan Git:
+
+1. Buka halaman repository GitHub.
+2. Klik tombol **Code**.
+3. Pilih **Download ZIP**.
+4. Ekstrak file ZIP ke komputer.
+5. Buka Android Studio.
+6. Pilih **File** → **Open**.
+7. Arahkan ke folder hasil ekstraksi.
+8. Klik **OK**.
+
+---
+
+# 📊 Features
+
+| Feature                    | Status |
+| -------------------------- | ------ |
+| 🔍 Keyword Search          | ✅      |
+| ⚡ Instant Response         | ✅      |
+| ☁️ Serverless Architecture | ✅      |
+| 📱 Android Ready           | ✅      |
+| 🌐 RESTful API             | ✅      |
+| 📦 JSON Response           | ✅      |
+| 🆓 Free to Use             | ✅      |
+
+---
+
+# 🏗️ Tech Stack
 
 | Technology | Usage         |
 | ---------- | ------------- |
@@ -126,43 +202,19 @@ curl "https://sasak-api.vercel.app/api/kamus?search=mangan"
 
 ---
 
-## 🌾 Mission
+# 👨‍💻 Author
 
-Bahasa daerah merupakan bagian penting dari identitas budaya Indonesia.
+## Salman Al Farisi
 
-Melalui proyek ini, kami berupaya menyediakan akses digital yang lebih mudah terhadap Bahasa Sasak agar dapat dimanfaatkan oleh:
-
-* Mahasiswa
-* Peneliti
-* Guru dan Pelajar
-* Developer
-* Komunitas Pelestari Budaya
+**Informatics Engineering Student**
+**Universitas Hamzanwadi**
 
 ---
 
-## 👨‍💻 Author
 
-**Salman Al Farisi**
-
-Informatics Engineering Student
-Universitas Hamzanwadi
-
----
-
-## ❤️ Support The Project
-
-Jika proyek ini bermanfaat:
-
-⭐ Berikan Star pada repository ini
-
-🍴 Fork dan kembangkan
-
-🤝 Berkontribusi untuk pelestarian Bahasa Sasak
-
----
 
 <div align="center">
 
-### 🌾 "Melestarikan Bahasa Sasak Melalui Teknologi"
+## 🌾 "Melestarikan Bahasa Sasak Melalui Teknologi"
 
 </div>
