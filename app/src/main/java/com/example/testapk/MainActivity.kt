@@ -1,4 +1,4 @@
-package com.example.testapk // Sesuaikan dengan nama package aplikasimu
+package com.example.testapk
 
 import com.example.testapk.ApiClient
 import android.os.Bundle
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // Fungsi untuk mengambil data dari API menggunakan Coroutines
+    // Fungsi untuk mengambil data dari API
     private fun fetchKamusData(query: String) {
         // Tampilkan ProgressBar sebelum request dimulai
         progressBar.visibility = View.VISIBLE

@@ -1,4 +1,4 @@
-package com.example.testapk // Sesuaikan dengan nama package aplikasimu
+package com.example.testapk
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 class KamusAdapter(private var listKata: List<KamusItem>) :
     RecyclerView.Adapter<KamusAdapter.KamusViewHolder>() {
 
-    // ViewHolder berfungsi untuk mengenali komponen UI di dalam item_kamus.xml
+    // Mengenali komponen UI di dalam item_kamus.xml
     class KamusViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvSasak: TextView = itemView.findViewById(R.id.tvSasak)
         val tvIndonesia: TextView = itemView.findViewById(R.id.tvIndonesia)
